@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  .posts {
+    .post {
+      padding: 15px;
+      cursor: pointer;
+    }
+  }
+}

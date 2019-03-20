@@ -1,0 +1,35 @@
+.intro-section {
+  margin: 0 auto;
+  display: inline-block;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: calc(15px + 2vmin);
+  margin-bottom: 50px;
+  margin-top: 20px;
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .my-img {
+    width: 70px;
+    margin: 0 auto;
+  }
+  #widget {
+    margin-bottom: 10px;
+    .btn-o {
+      max-width: 100%;
+      a {
+        text-decoration: none;
+        font-size: 14px;
+        position: relative;
+        height: 20px;
+        box-sizing: border-box;
+        padding: 1px 8px 1px 6px;
+        background-color: #1b95e0;
+        color: #fff;
+        border-radius: 3px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+  }
+}
